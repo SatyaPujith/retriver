@@ -1,0 +1,5 @@
+
+Flask
+selenium
+webdriver-manager # To automatically manage chromedriver
+python-dotenv
