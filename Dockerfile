@@ -2,9 +2,9 @@
 FROM python:3.9-slim-buster
 
 # Set environment variables
-ENV PYTHONUNBUFFERED 1
-ENV FLASK_APP app.py
-ENV PORT 10000 # Render's default port
+ENV PYTHONUNBUFFERED=1
+ENV FLASK_APP=app.py
+ENV PORT=10000 # Render's default port
 
 # Install system dependencies for Chrome
 RUN apt-get update && apt-get install -y \
