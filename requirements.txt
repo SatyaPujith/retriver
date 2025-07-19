@@ -1,5 +1,5 @@
-
 Flask
 selenium
+gunicorn # Essential for serving Flask apps on Render
 webdriver-manager # To automatically manage chromedriver
 python-dotenv
